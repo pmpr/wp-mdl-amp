@@ -1,0 +1,25 @@
+{
+  "name": "pmpr-pkg/wp-pkg-amp",
+  "type": "project",
+  "license": "proprietary",
+  "description": "AMP Package for Wordpress",
+  "keywords": [
+    "wordpress",
+    "package",
+    "amp"
+  ],
+  "require": {
+    "php": ">=7.4",
+    "pmpr-cmn/wp-cmn-foundation": "dev-main"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pmpr\\Package\\AMP\\": "src/Pmpr/Package/AMP"
+    },
+    "files": [
+      "index.php"
+    ]
+  },
+  "minimum-stability": "dev"
+}
+
