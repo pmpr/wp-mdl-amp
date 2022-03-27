@@ -1,11 +1,12 @@
 {
-  "name": "pmpr-pkg/wp-pkg-amp",
+  "name": "pmpr-mdl/wp-mdl-amp",
   "type": "project",
   "license": "proprietary",
-  "description": "AMP Package for Wordpress",
+  "description": "AMP Module for Wordpress",
   "keywords": [
     "wordpress",
     "package",
+    "module",
     "amp"
   ],
   "require": {
@@ -14,7 +15,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Pmpr\\Package\\AMP\\": "src/Pmpr/Package/AMP"
+      "Pmpr\\Module\\AMP\\": "src/Pmpr/Module/AMP"
     },
     "files": [
       "index.php"
